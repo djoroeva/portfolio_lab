@@ -1,0 +1,125 @@
+body {
+  background-color: #cbcbee;
+  font-size: 25px;
+  font-family: Georgia, serif;
+}
+
+.profile_pic {
+  border-radius: 25px ;
+  border: 10px solid black;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 70px;
+  color: #002147;
+  gap: 40px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  color: #002147;
+  background-color: white;
+  width: 350px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: auto;
+}
+
+.section {
+  text-align: left;
+  display: grid; 
+  grid-template-columns: 1fr 2fr;
+  border: 5px solid black;
+}
+
+.clubs {
+   background-color: #c0e68b;
+}
+
+.skills {
+    background-color: #c5c0f0;
+}
+
+.homepage {
+    background-color: #f1e4aa;
+}
+
+.research {
+    background-color: #619cef;
+}
+
+.projects {
+  text-align: left;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project_box {
+  border-radius: 25px;
+  padding: 10px;
+  border: 5px solid black;
+  width: 430px;
+  height: 500px;
+  background-color: #e8eaa9;
+  text-align: left;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #4B0082;
+  color: white;
+}
+
+footer a {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+nav {
+  display: flex; 
+  justify-content: center; 
+  background-color: #4B0082;
+  padding: 20px;
+  gap: 15px; 
+}
+
+nav a {
+  display: inline-block; 
+  text-decoration: none; 
+  color: white; 
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: transparent; 
+  border: 2px solid white; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: purple; 
+  color: white;
+}
+
+.toggle-content {
+    display: none; 
+  }
+  
+.toggle-btn {
+    cursor: pointer;
+    margin-left: 20px;
+    background-color: #4c5caf; 
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aydana Djoroeva</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset = “utf-8”>
+  <link rel="stylesheet"
+href="my_style.css">
+</head> 
+
+<body id="int_design">
+  <nav>
+    <a href="homepage.html" class="nav_button">Home</a>
+    <a href="research.html" class="nav_button">Research</a>
+    <a href="projects.html" class="nav_button">Projects</a>
+    <a href="skills.html" class="nav_button">Skills</a>
+    <a href="clubs.html" class="nav_button">Clubs</a>
+ </nav>
+
+
+<br>
+
+<div class = "projects">
+
+<div class="project_box">
+    <b>Asteroid 2498 Tsesevich Research Team Member</b> <br>
+    Physics and Astronomy Department, Union College, September 2022-May 2023 <br><br>
+
+    <button class="toggle-btn" onclick="toggleContent('content1')">More Details</button>
+    <div id="content1" class="toggle-content">
+        <ul>
+        <li>Observed target 2498 Tsesevich, ran photometry and applied standard corrections for light travel time, unit distances, and solar phase angle based on NASA data.</li>
+        <li>Presented the results of a project at the NY6 Undergraduate Conference (Date) and at Steinmetz Symposium (May 2023).</li>
+        </ul>
+    </div>
+    </div>
+
+<img class="project_box" src="project_pic.jpeg" alt="A photo of my presentation"> </img>
+
+<div class="project_box">
+    <b>Summer Research Project</b> <br>
+    Psychology and Neuroscience Departments, Union College, June 2024-September 2024 <br><br>
+
+    <button class="toggle-btn" onclick="toggleContent('content2')">More Details</button>
+    <div id="content2" class="toggle-content">
+      <ul>
+        <li>Design and conduct an experimental study that explores the neuropsychological effects of greenspace and exercise for older adults (outdoors vs virtual pedaling).</li>
+        <li>Administer psychological assessment tests like Stroop test, Digit Span, and electronic MoCA.</li>
+        <li>Presented the project results at the 10th Annual Meeting of the Society for Neuroscience Hudson-Berkshire Chapter (September 2024).</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<br>
+
+<footer>
+  <h2>Contact Info</h2>
+<p>Email:
+  <a
+href="mailto:aydanajoroeva@gmail.com">aydanajoroeva@gmail.com</a> <br>
+ LinkedIn:
+  <a
+href="https://www.linkedin.com/in/aydana-djoroeva/">Aydana Djoroeva</a> <br>
+     Instagram:
+  <a
+href="https://www.instagram.com/kinhumand?igsh=MWJ3cnkwemFkcWRxNg%3D%3D&utm_source=qr">kinhumand</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.birds.min.js"></script>
+<script>
+VANTA.BIRDS({
+  el: "#int_design",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0xa4c3eb
+})
+</script>
+<script src="my_button.js" defer></script>
+
+</body>
+</html>
